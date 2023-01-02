@@ -75,6 +75,8 @@ h4{
 #sec-cont{
     text-align: start;
     font-family: 'Balsamiq Sans', cursive;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
@@ -222,6 +224,32 @@ a{
     height: 300px;
 }
 @media only screen and (max-width: 412px) {
+    .navitems{
+        font-size: small;
+        color: burlywood;
+        padding: 0px;
+    }
+    .navhead{
+        color: darkslategray;
+    }
+
+    .dropdown-menu{
+        font-size: small;
+        background: transparent;
+        font-size: xx-small;
+        color: burlywood;
+    }
+    .dropa{
+        color: burlywood;
+    }
+
+
+    .navbar-toggler{
+        margin-left: -10;
+        margin-top: 50px;
+        margin-left: 20px;
+
+    }
     .tophead{
         margin-top: 30px;
     }
@@ -231,7 +259,6 @@ a{
     margin-bottom: 10px;
 
     }
-
     /* carousel */
     .carousel-control-prev{
         height: 300px;
@@ -241,7 +268,6 @@ a{
     }
     .carorow{
         height: 300px;
-        margin-left: 10px;
     }
     .caro{
         height: 250px;
@@ -298,14 +324,16 @@ a{
 
     .honeymoon{
         width: 200PX;
+        height: 357px;
         margin-top: 10px;
+        margin-left: 0px;
     }
     .honeymoonpic{
         width: 150px;
         height: 150px;
     }
     .secbody{
-        margin-left: 10px;
+        margin-left:0px;
     }
 
     .packtit{
@@ -313,15 +341,17 @@ a{
     }
     #sec-cont{
         font-size: x-small;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     /* video */
     .video{
-        margin-left: 10px;
+        margin-left: 0px;
         
     }
     .north{
-        left: 30px;
+        left: 0px;
         padding-left: 0px;
     }
     
@@ -340,7 +370,11 @@ a{
     /* premium */
 
     .premium{
-        padding-left: 50px;
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+
     }
 
     #kerala{
@@ -373,6 +407,9 @@ a{
     }
 
     /* feedback */
+    .feedrow{
+        padding: 0px;
+    }
     #feedico{
         width: 20px;
         height: 20px;
@@ -425,6 +462,6 @@ a{
     .footglobe{
         width: 100px;
         height: 100px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
   }
