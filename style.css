@@ -1,0 +1,430 @@
+body{
+    width: 100%;
+    margin: 0px;
+}
+.head{
+    background-image: url(https://wallpaperaccess.com/full/136008.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -30px;
+}
+#title{
+    font-family: 'Seymour One', sans-serif;
+    font-size: 50px;
+    color: yellowgreen;
+}
+a{
+    font-family: 'Seymour One', sans-serif;
+}
+.tit{
+    float: left;
+}
+#guide{
+    margin-top: 30px;
+    font-size: 100%;
+}
+#desc{
+    font-size: 70px;
+    font-family: 'Seymour One', sans-serif;
+}
+#desc2{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+}
+#desc3{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 70px;
+}
+#desc4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+.honey{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section{
+    width: 100%;
+}
+.honeymoonrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.honeymoonpic{
+    width: 90%;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+/* section */
+h4{
+    color: red;
+}
+.honeymoon{
+    margin-left: 10px;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+#sec-cont{
+    text-align: start;
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+
+#kerala{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* carousel */
+#carouselExampleIndicators{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+.caro{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 500px;
+}
+
+/* north india */
+.north{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.nimage{
+    width: 300px;
+    margin: 5px;
+    padding: 0px;
+    border-radius: 10%;
+}
+.ni{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+.hr{
+    margin-top: 15px;
+    color: gray;
+
+}
+
+
+/* premium */
+.premium{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pre{
+    width: 250px;
+    height: 270px;
+    margin: 5px;
+    padding-top: 20px;
+    border-radius: 10%;
+    background-color: gainsboro;
+}
+.pretit{
+    text-align: center;
+}
+.prenames{
+    text-align: center;
+}
+.cartoon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+/* feedback */
+.feedrow{
+    margin: 0px;
+}
+.feedback{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+
+}
+#feedico{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.feedcoupimg{
+    width: 80%;
+    height: 200px;
+}
+.couprate{
+    width: 80%;
+    height: 80px;
+}
+.nametit{
+    text-align: center;
+}
+.names{
+    text-align: start;
+    width: 80%;
+}
+.feedpara{
+    
+}
+/* footer */
+.footer{
+    background-color: #002D62;
+    color: aliceblue;
+}
+.footheading{
+    color: yellow; 
+    margin: 0px;
+}
+.foottxt{
+    margin-top: 20px;
+    list-style: none;
+    text-align: left;
+    margin-left: 30%;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+}
+.footico{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+.footimg{
+    margin-top: 20px;
+    float: left;
+    margin-left: 30%;
+}
+.footglobe{
+    width: 80%;
+    height: 300px;
+}
+@media only screen and (max-width: 412px) {
+    .tophead{
+        margin-top: 30px;
+    }
+    #guide{
+        
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    }
+
+    /* carousel */
+    .carousel-control-prev{
+        height: 300px;
+    }
+    .carousel-control-next{
+        height: 300px;
+    }
+    .carorow{
+        height: 300px;
+        margin-left: 10px;
+    }
+    .caro{
+        height: 250px;
+    }
+    .carousel-caption{
+        padding-top: 0px;
+        top: 150px;
+        
+
+    }
+    #carotit{
+        font-size: medium;
+    }
+    .carobut{
+        width: 100px;
+        height: 30px;
+        font-size: small;
+    }
+
+
+    .title{
+        
+        height: 50px;
+    }
+    #title{
+        font-size: larger;
+    }
+    .navbut{
+        margin-top: 50px;
+    }
+    .head{
+        height: 500px;
+    }
+
+    #desc{
+        font-size: medium;
+        font-family: 'Seymour One', sans-serif;
+    }
+    #desc2{
+        
+        font-family: 'Poppins', sans-serif;
+        font-size: medium;
+    }
+    #desc3{
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: medium;
+    }
+    #desc4{
+        font-family: 'Dancing Script', cursive;
+        font-size: medium;
+    }
+
+    /* honey */
+
+    .honeymoon{
+        width: 200PX;
+        margin-top: 10px;
+    }
+    .honeymoonpic{
+        width: 150px;
+        height: 150px;
+    }
+    .secbody{
+        margin-left: 10px;
+    }
+
+    .packtit{
+        font-size: small;
+    }
+    #sec-cont{
+        font-size: x-small;
+    }
+
+    /* video */
+    .video{
+        margin-left: 10px;
+        
+    }
+    .north{
+        left: 30px;
+        padding-left: 0px;
+    }
+    
+    .ni{
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .nimage{
+        width: 182px;
+        height: 182px;
+
+    }
+
+    /* premium */
+
+    .premium{
+        padding-left: 50px;
+    }
+
+    #kerala{
+        font-size: small;
+    }
+
+    .prehead{
+        font-size: small;
+    }
+
+    .pre{
+        width: 126px;
+        height: 172px;
+    }
+
+    .cartoon{
+        width: 80px;
+        height: 80px;
+        padding-bottom: 0px;
+        margin-top: -20;
+        margin-left: 10px;
+
+
+    }
+    .prenames{
+        font-size: x-small;
+    }
+    .pretit{
+        font-size: small;
+    }
+
+    /* feedback */
+    #feedico{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+    .feedcoupimg{
+        width: 100px;
+        height: 100px;
+
+    }
+    .couprate{
+        width: 100px;
+        height: 50px;
+    }
+    .nametit{
+        font-size: small;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .names{
+        width: 100px;
+        height: 150px;
+        font-size: x-small;
+        text-align: start;
+    }
+    .feedpara{
+        margin-left: 10px;
+    }
+
+    /* footer */
+    .footer{
+        width:100%;
+    }
+    .footheading{
+        font-size: small;
+    }
+    .footimg {
+      margin-left: 10px;
+     
+    }
+    .foottxt{
+        margin-left: 0px;
+        font-size: x-small;
+    }
+    .footico{
+        width: 15px;
+        height: 15px;
+        margin-left: 5px;
+    }
+    .footglobe{
+        width: 100px;
+        height: 100px;
+        margin-top: 40px;
+    }
+  }
