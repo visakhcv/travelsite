@@ -223,7 +223,7 @@ a{
     width: 80%;
     height: 300px;
 }
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 500px) {
     .navitems{
         font-size: small;
         color: burlywood;
@@ -268,6 +268,7 @@ a{
     }
     .carorow{
         height: 300px;
+        padding-right: 0px;
     }
     .caro{
         height: 250px;
@@ -348,6 +349,7 @@ a{
     /* video */
     .video{
         margin-left: 0px;
+        padding-left: 0px;
         
     }
     .north{
@@ -465,3 +467,4 @@ a{
         margin-top: 30px;
     }
   }
+  
