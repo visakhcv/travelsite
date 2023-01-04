@@ -10,6 +10,9 @@ body{
     background-attachment: fixed;
     margin-top: -30px;
 }
+.tophead{
+    margin-right: 0px;
+}
 #title{
     font-family: 'Seymour One', sans-serif;
     font-size: 50px;
@@ -358,14 +361,14 @@ a{
     }
     
     .ni{
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
 
     }
 
     .nimage{
-        width: 182px;
-        height: 182px;
+        width: 160px;
+        height: 160px;
 
     }
 
